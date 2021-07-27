@@ -1,3 +1,150 @@
 body {
   margin: 0;
+  font-family: "Baloo Chettan 2", cursive;
+  background-color: #003638;
+  background-repeat: no-repeat;
+  background-position: cover;
+  color: #f3f2c9;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.header-area {
+  text-align: center;
+  overflow: hidden;
+}
+.header-area img {
+  width: 100px;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.header-area h1 {
+  font-size: 55px;
+}
+.header-area h5 {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+.arrow a {
+  text-decoration: none;
+  width: 16px;
+  height: 16px;
+  color: #f3f2c9;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+}
+.intro-section {
+  overflow: hidden;
+  padding: 100px 0;
+}
+.left-part {
+  float: left;
+  overflow: hidden;
+  width: 35%;
+  padding: 5%;
+}
+.left-part h1 {
+  font-size: 45px;
+}
+.left-part span {
+  color: yellow;
+}
+.right-part {
+  float: right;
+  width: 35%;
+  padding: 5%;
+  overflow: hidden;
+}
+.right-part img {
+  width: 100%;
+  height: auto;
+}
+.sample-section {
+  padding: 100px 0;
+  overflow: hidden;
+}
+.samples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.samples img {
+  width: 300px;
+}
+.camera {
+  padding: 20px 0;
+  overflow: hidden;
+}
+.camera .left-part {
+  margin-top: 116px;
+}
+.contact {
+  overflow: hidden;
+}
+.contact .left-part {
+  margin-top: 116px;
+}
+.contact .left-part h2 {
+  color: yellow;
+}
+.contact .left-part a {
+  text-decoration: none;
+  color: yellowgreen;
+  margin-top: 50px;
+}
+.contact .cont {
+  color: yellowgreen;
+}
+
+.form-area {
+  padding: 50px 0;
+  overflow: hidden;
+}
+.form-area div {
+  padding: 2px;
+}
+.form-area label {
+  padding-right: 20px;
+}
+.form-area input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-area .right-part h1 {
+  font-size: 35px;
+}
+.form-area input[type="submit"] {
+  width: 100%;
+  background-color: yellowgreen;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-area .left-part {
+  padding: 60px;
+}
+.form-area .left-part img {
+  width: 100%;
+  height: auto;
+}
+.footer-area {
+  text-align: center;
+}
+.footer-area p {
+  color: yellowgreen;
+  font-size: 18px;
 }
